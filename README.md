@@ -193,7 +193,7 @@ Larger labeled dataset
 
 Temporal video-based detection
 
-✅ Conclusion
+# Conclusion
 
 The fine-tuned YOLOv8 model achieves strong detection accuracy on road-camera imagery with clean bounding box localization. Error analysis and post-processing enhancements significantly improved output quality while maintaining high recall.
 
