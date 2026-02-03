@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 
 # Load trained model
-model = YOLO("best_new.pt")   # keep model in same folder
+model = YOLO("best.pt")   # keep model in same folder
 
 st.title("Car Detection & Localization Demo")
 
