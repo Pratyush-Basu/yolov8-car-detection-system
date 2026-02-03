@@ -84,13 +84,13 @@ Crowded scenes produced most localization drift
 Confidence threshold tuning was applied to improve bounding box quality.
 
 Confidence	False Positives	Localization Errors
-0.25	9	9
-0.35	6	6
+0.25 -	9	- 9
+0.35 -	6	- 6
 Final threshold used: 0.35
 
 This reduced noisy detections by ~33% with only a negligible recall decrease.
 
-$ Option 4 — Lightweight Demo
+# Option 4 — Lightweight Demo
 
 A Streamlit interface enables:
 
@@ -182,6 +182,19 @@ Best performance on road-camera style imagery
 Reduced generalization on visually distinct scenes due to domain shift
 
 Small dataset restricts extreme robustness
+
+# Results & Visual Evaluation
+Detection Performance Example
+
+<h3>Detection Results</h3>
+<img src="https://github.com/Pratyush-Basu/yolov8-car-detection-system/blob/main/results/results.png" width="700" alt="Car Detection Results">
+
+This figure shows predicted bounding boxes on validation images after post-processing confidence tuning.
+
+<h3>Confusion Matrix</h3>
+<img src="https://github.com/Pratyush-Basu/yolov8-car-detection-system/blob/main/results/confusion_matrix.png" width="700" alt="Confusion Matrix">
+
+This summarizes correct detections, missed vehicles, localization errors and false positives.
 
 # Potential Improvements
 
